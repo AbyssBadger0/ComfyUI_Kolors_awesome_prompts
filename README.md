@@ -2,6 +2,11 @@
 
 ## 用于便捷化的选择画面风格
 
+![example](example.png)
+
+显示文本的节点是
+[ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use)
+
 ## 数据来源
 
 本项目使用的数据集来源于 [ModelScope](https://modelscope.cn/) 平台上的 [Kolors Awesome Prompts](https://modelscope.cn/datasets/modelscope/Kolors_awesome_prompts) 数据集。

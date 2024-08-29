@@ -32,10 +32,11 @@ class KolorsAwesomePrompts:
                 prompt = row['PROMPT'].replace("{prompt}", prompt)
                 
                 # 检查 neg_prompt 是否以标点符号结尾
-                if neg_prompt and neg_prompt[-1] in "。，！;？.,!":
+                if neg_prompt and neg_prompt[-1] in "。，！;？.,!、":
                     neg_prompt = neg_prompt[:-1] + "、"
                 elif len(neg_prompt) > 0:
                     neg_prompt += "、"
+                neg_prompt += row['NEGATIVE_PROMPT']
         return (prompt,neg_prompt)
 
 NODE_CLASS_MAPPINGS = {
