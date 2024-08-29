@@ -1,0 +1,4 @@
+modelscope
+datasets
+oss2
+addict
