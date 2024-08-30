@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_kolors_awesome_prompts"
+description = "Nodes:KolorsAwesomePrompts"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["modelscope", "datasets", "oss2", "addict"]
+
+[project.urls]
+Repository = "https://github.com/AbyssBadger0/ComfyUI_Kolors_awesome_prompts"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_Kolors_awesome_prompts"
+Icon = ""
